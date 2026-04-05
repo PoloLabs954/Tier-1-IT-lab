@@ -6,12 +6,12 @@ Welcome to my home lab documentation. I built this environment to practice real-
 
 ---
 
-## 📁 Completed & In-Progress Labs
+## 📁 Completed Labs
 
 | Lab | Focus | Status |
 |-----|-------|--------|
 | [Active Directory Basics](labs/01-active-directory/) | User creation, OUs, password resets, account unlocks | ✅ Complete |
-| DHCP Configuration | IP address scopes, leases, reservation | 🚧 Planned (redo in progress) |
+| [DHCP Configuration](labs/02-dhcp/) | IP address scopes, leases, exclusions, reservations | ✅ Complete |
 | [Group Policy Basics](labs/03-group-policy/) | GPO creation, linking to OUs, policy verification | ✅ Complete |
 
 ---
@@ -20,7 +20,7 @@ Welcome to my home lab documentation. I built this environment to practice real-
 
 - **Cloud platform:** Microsoft Azure (Windows Server VM)
 - **Domain:** `lab.local`
-- **Tools used:** Active Directory Users & Computers, Group Policy Management Console, Server Manager, PowerShell
+- **Tools used:** Active Directory Users & Computers, Group Policy Management Console, DHCP Console, Server Manager, PowerShell
 
 ---
 
