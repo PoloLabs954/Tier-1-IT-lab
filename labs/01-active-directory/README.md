@@ -21,19 +21,19 @@ This lab simulates real-world Tier 1 help desk tasks using a **Windows Server** 
 
 ---
 
-## 📋 Lab Tasks Completed (Tier 1 Scenarios)
+## 📸 Lab Task Screenshots
 
-| # | Task (Problem) | Solution | Screenshot |
-|---|----------------|----------|-------------|
-| 1 | Deploy Windows Server VM in Azure | Created B1s VM, opened RDP port in NSG | ![VM Creation](screenshots/01-azure-vm-creation.png) |
-| 2 | Install Active Directory Domain Services | Added AD DS role via Server Manager | ![AD Install](screenshots/02-ad-ds-install.png) |
-| 3 | Promote server to Domain Controller | Configured new forest `lab.local`, set DSRM password | ![Promote DC](screenshots/03-promote-dc.png) |
-| 4 | Create Organizational Units (OUs) | Created `IT`, `HR`, `Users` OUs for organization | ![OUs](screenshots/04-ous-created.png) |
-| 5 | Create user accounts | Made `John.Doe`, `Jane.Smith` in appropriate OUs | ![Create Users](screenshots/05-create-users.png) |
-| 6 | Reset a forgotten password | Used ADUC to reset password → "User must change at next logon" | ![Password Reset](screenshots/06-password-reset.png) |
-| 7 | Unlock a locked-out account | Found locked user in ADUC → Unlock button | ![Unlock Account](screenshots/07-unlock-account.png) |
-| 8 | Verify domain join readiness | Confirmed DNS points to DC, tested `nslookup lab.local` | ![DNS Test](screenshots/08-dns-test.png) |
-
+| Task | Screenshot |
+|------|------------|
+| Adding forest (promote to Domain Controller) | ![Add Forest](screenshots/01-Adding-Forest.png) |
+| Installing AD DS roles & features | ![Add Roles & Features](screenshots/02-Added-roles-features.png) |
+| Creating Organizational Units (OUs) | ![Create OUs](screenshots/03-Adding-Organizational-Units.png) |
+| Adding users to OUs | ![Add Users](screenshots/04-Added-Users.png) |
+| Resetting a user password | ![Password Reset](screenshots/05-Password-reset.png) |
+| Adding security groups | ![Add Groups](screenshots/06-Added-groups.png) |
+| Domain join – step 1 of 3 | ![Domain Join 1](screenshots/07A-Domain-Join.png) |
+| Domain join – step 2 of 3 | ![Domain Join 2](screenshots/07B-Domain-Join.png) |
+| Domain join – step 3 of 3 | ![Domain Join 3](screenshots/07C-Domain-Join.png) |
 ---
 
 ## 🧠 What I Learned
